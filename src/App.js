@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
-import {Jumbotron, Table, Pagination, PaginationItem} from 'react-bootstrap';
+import {Table, Pagination} from 'react-bootstrap';
 require('bootstrap/dist/css/bootstrap.css');
-class App extends React.Component {
+class App extends Component {
   constructor() {
     super();
     this.state = {
