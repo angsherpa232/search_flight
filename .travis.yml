@@ -1,10 +1,11 @@
 language: node_js
 node_js: "11"
 install:
-  - npm install -g eslint
-  - npm install --save-dev eslint eslint-config-defaults
-  - eslint --init
+  #- npm install -g eslint
+  #- npm install --save-dev eslint eslint-config-defaults
+  #- eslint --init
+  - npm install
 script:
   # - python --version
-  # - npm test
-  - eslint .
+  - npm test
+  #- eslint .
