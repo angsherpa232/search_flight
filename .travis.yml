@@ -4,4 +4,5 @@ install: npm install -g eslint
 script:
   # - python --version
   # - npm test
+  - eslint --init
   - eslint .
