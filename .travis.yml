@@ -9,3 +9,8 @@ script:
   # - python --version
   - npm test
   #- eslint .
+  
+ # new test
+ - URL=xyz.api/buffalo,RESULTS=0
+ - URL=xyz.api/bonn/crime,RESULTS=3
+ - URL=xyz.api/bonn/crime/1 january 2016 to 1 january 2017,RESULTS=1
