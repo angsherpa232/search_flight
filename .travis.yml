@@ -1,16 +1,12 @@
+# https://facebook.github.io/create-react-app/docs/running-tests#continuous-integration
+
 language: node_js
-node_js: "11"
-install:
-  #- npm install -g eslint
-  #- npm install --save-dev eslint eslint-config-defaults
-  #- eslint --init
-  - npm install
+node_js:
+  - 8
+  - 11
+cache:
+  directories:
+    - node_modules
 script:
-  # - python --version
+  - npm run build
   - npm test
-  #- eslint .
-  
- # new test
- - URL=xyz.api/buffalo,RESULTS=0
- - URL=xyz.api/bonn/crime,RESULTS=3
- - URL=xyz.api/bonn/crime/1 january 2016 to 1 january 2017,RESULTS=1
