@@ -1,3 +1,5 @@
-import App
+let dateTransformTest=()=>{
+ return true;
+}
 
-App().dateTransform(Date(1, 1, 2018)) === 'Janunary 1, 2018'
+dateTransformTest();
